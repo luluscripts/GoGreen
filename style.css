@@ -58,6 +58,15 @@ body{
     content: '';
 }
 
+.inner-con img{
+  border-radius: 50%;
+  width:20px;
+}
+
+.inner-con a {
+  text-decoration: none;
+}
+
 .footer { 
   background-color: #304D30;
   position: absolute; 
