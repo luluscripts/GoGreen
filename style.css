@@ -9,6 +9,8 @@ body{
     line-height: 1.6;
     font-weight: lighter;
     color: white;
+    min-height: 100vh;
+    position: relative;
 }
 
 .header{
@@ -34,8 +36,13 @@ body{
     color: white;
   }
 
-  .image{
-    border-radius: 50%;
+.image-container{
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+  .image-container:hover {
+    transform: scale(1.1);
   }
 
   .parent-con {
@@ -49,4 +56,13 @@ body{
     width: 200px;
     height: 300px;
     content: '';
+}
+
+.footer { 
+  background-color: #304D30;
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+  width: 100%;
 }
