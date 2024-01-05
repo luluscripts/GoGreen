@@ -11,6 +11,7 @@ body{
     color: white;
     min-height: 100vh;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .header{
@@ -54,7 +55,6 @@ body{
 }
 .inner-con {
     width: 200px;
-    height: 300px;
     content: '';
 }
 
